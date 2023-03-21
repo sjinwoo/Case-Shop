@@ -1,0 +1,106 @@
+@charset "utf-8";
+body{
+    margin: 0;padding: 0;
+}
+li{
+    list-style: none;
+}
+a {
+    color: #000;text-decoration: none;
+}
+.clearfix::before,.clearfix::after {display: block;content: '';clear: both;}
+#wrap{
+    position: relative;
+    width: 1000px;height: 2000px;background: #fff;margin: 0 auto;}
+
+#header{background: #fff;}
+
+/* login */
+td{width: 200px;}
+.textbox{
+    position: relative;
+}
+.textbox input{
+    
+    width: 100%; 
+    height: auto;  
+    line-height : normal;  
+    padding: .8em .5em; 
+    font-family: inherit;  
+    border: 1px solid #999;
+    border-radius: 10px;  
+}
+.textbox label {
+  position: absolute;
+  top: 1px;  /* input 요소의 border-top 설정값 만큼 */
+  left: 1px;  /* input 요소의 border-left 설정값 만큼 */
+  padding: .8em .5em;  /* input 요소의 padding 값 만큼 */
+  color: #999;
+  cursor: text;
+}
+.buttonset{position: relative;}
+.buttonset input[type="submit"],
+.buttonset input[type ="button"]{
+    color: #ccc;
+    background-color: #000;
+    width: 100%; 
+    height: auto;  
+    line-height : normal; 
+    padding: .8em .5em; 
+    font-family: inherit;  
+    border: 1px solid #999;
+    border-radius: 10px;  
+}
+h2{
+    
+    background-color: #ccc;
+    padding: 20px;
+}
+.table{
+    border: 1px solid #000;
+    text-align: center;
+    border-collapse: collapse;
+}
+.tabletr td{
+    border-right: 1px solid #000;
+    border-bottom: 5px solid #000;
+    text-align: center;
+}
+.trline {
+    border-bottom: 1px solid #000;
+}
+.trline td{
+    border-right: 1px solid #000;
+    text-align: center;
+
+}
+.trline input[type ="button"]{
+    color: #ccc;
+    background-color: #000;
+    height: auto;  
+    line-height : normal; 
+    padding: .8em .5em; 
+    font-family: inherit;  
+    border: 1px solid #999;
+    border-radius: 10px;  
+}
+.tablestar{
+    border: 1px solid #000;
+    text-align: center;
+    border-collapse: collapse;
+}
+.tr1{
+    background-color:#ccc;
+    border: 1px solid #000;
+    
+}
+.tr1 td{
+    padding: 10px;
+    border-right: 1px solid #000;
+}
+
+
+
+
+
+
